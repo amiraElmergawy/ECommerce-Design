@@ -34,17 +34,15 @@ span[class="input-group-text h-100 w-100"] {
 }
 
 .update {
-    width                : 37px;
-    height               : 26px;
     background-color     : green;
-    /*border             : 2px;
-    */
+    /* width                : 37px;
+    height               : 26px;
     box-shadow           : 1px 1px 2px #000;
     border-radius        : 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius   : 5px;
     -ms-border-radius    : 5px;
-    -o-border-radius     : 5px;
+    -o-border-radius     : 5px; */
 }
 
 .del {
@@ -69,4 +67,16 @@ span[class="input-group-text h-100 w-100"] {
 .product img{
     width: 10rem;
     height: 10rem;
+}
+
+header{
+    height: 5vh;
+}
+
+.cont{
+    height: 95vh;
+}
+
+.row{
+    height: 100%;
 }
