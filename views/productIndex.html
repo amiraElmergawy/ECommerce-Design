@@ -43,7 +43,6 @@
                                     </span>
                                 </div> -->
                             </div>
-                            <div class="input-group mb-3">
                         </td>
                         <td>
                             <div class="input-group md-form form-sm form-1 pl-0 mb-1">
@@ -55,7 +54,6 @@
                                     </span>
                                 </div> -->
                             </div>
-                            <div class="input-group mb-3">
                         </td>
                         <td></td>
                     </tr>
@@ -102,7 +100,8 @@
                         </td>
                         <td>
                             <div class="h-100 w-100 d-flex flex-column justify-content-evenly align-items-center">
-                                <div class="btn show-button text-center">
+                                <div class="btn show-button text-center" data-bs-toggle="modal"
+                                data-bs-target="#showProductModal">
                                     <i class="far fa-eye text-white"></i>
                                 </div>
                                 <div class="btn update text-center">
@@ -129,7 +128,8 @@
                         </td>
                         <td>
                             <div class="h-100 w-100 d-flex flex-column justify-content-evenly align-items-center">
-                                <div class="btn show-button text-center">
+                                <div class="btn show-button text-center" data-bs-toggle="modal"
+                                data-bs-target="#showProductModal">
                                     <i class="far fa-eye text-white"></i>
                                 </div>
                                 <div class="btn update text-center">
@@ -156,7 +156,8 @@
                         </td>
                         <td>
                             <div class="h-100 w-100 d-flex flex-column justify-content-evenly align-items-center">
-                                <div class="btn show-button text-center">
+                                <div class="btn show-button text-center" data-bs-toggle="modal"
+                                data-bs-target="#showProductModal">
                                     <i class="far fa-eye text-white"></i>
                                 </div>
                                 <div class="btn update text-center">
@@ -194,18 +195,14 @@
                         they just aren’t as large or wide as grand pianos.
                     </p>
                     <hr>
-                    <div>
-                        <button class="btn update text-center">
-                            <i class="fas fa-pencil-alt text-white"></i>
-                        </button>
-                        <button class="btn del text-center">
-                            <i class="far fa-trash-alt text-white"></i>
-                        </button>
-                    </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button class="btn update text-center">
+                        <i class="fas fa-pencil-alt text-white"> Edit</i>
+                    </button>
+                    <button class="btn del text-center">
+                        <i class="far fa-trash-alt text-white"> <strong>Delete</strong></i>
+                    </button>
                 </div>
             </div>
         </div>
