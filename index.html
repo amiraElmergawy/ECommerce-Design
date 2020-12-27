@@ -17,9 +17,9 @@
 <body>
     <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
         <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">ECommerce App</a>
-        <ul class="navbar-nav px-3">
+        <ul class="navbar-nav px-3 d-md-block d-none">
             <li class="nav-item text-nowrap">
-                <a class="nav-link " href="#">Sign out</a>
+                <a class="nav-link" href="#">Sign out</a>
             </li>
         </ul>
         <button class="navbar-toggler d-md-none collapsed" type="button" data-bs-toggle="collapse"
@@ -32,7 +32,7 @@
         <div class="row">
             <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-dark sidebar collapse">
                 <div class="position-sticky pt-3">
-                    <a href="views/categoryIndex.html" target="main" >
+                    <a href="views/categoryIndex.html" target="main">
                         <h6
                             class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
                             <span>
@@ -50,50 +50,22 @@
                             </a>
                         </h6>
                     </a>
-                    <!-- <ul class="nav flex-column mb-2">
-                        <li class="nav-item">
-                            <a class="nav-link ml-4" href="views/categoryIndex.html" target="main">
-                                <span data-feather="file-text"></span>
-                                Index
+                    <a href="views/productIndex.html" target="main">
+                        <h6
+                            class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-cart" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                                </svg>
+                                Products
+                            </span>
+                            <a class="link-secondary" href="#" aria-label="Add a new report">
+                                <span data-feather="plus-circle"></span>
                             </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link ml-4" href="views/categoryCreate.html" target="main">
-                                <span data-feather="file-text"></span>
-                                Create
-                            </a>
-                        </li>
-                    </ul> -->
-                    <h6
-                        class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-cart" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
-                            </svg>
-                            Products
-                        </span>
-                        <a class="link-secondary" href="#" aria-label="Add a new report">
-                            <span data-feather="plus-circle"></span>
-                        </a>
-                    </h6>
-                    <ul class="nav flex-column mb-2">
-                        <li class="nav-item ml-4">
-                            <a class="nav-link" href="views/productIndex.html" target="main">
-                                <span data-feather="file-text"></span>
-                                Index
-                            </a>
-                        </li>
-                        <li class="nav-item ml-4">
-                            <a class="nav-link" href="views/productCreate.html" target="main">
-                                <span data-feather="file-text"></span>
-                                Create
-                            </a>
-                        </li>
-                    </ul>
-
-
+                        </h6>
+                    </a>
                     <h6
                         class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
                         <span>
@@ -134,6 +106,10 @@
                                 <span data-feather="file-text"></span>
                                 Year-end sale
                             </a>
+                        </li>
+                        <li class="nav-item d-md-none">
+                            <span data-feather="file-text"></span>
+                            <a class="nav-link" href="#">Sign out</a>
                         </li>
                     </ul>
                 </div>
