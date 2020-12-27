@@ -20,21 +20,22 @@
 
 
     <div class="container-fluid mt-2">
-        <div class="d-flex justify-content-between">
-            <h1 class="mb-3">Products</h1>
-            <button class="btn update text-white m-1" data-bs-toggle="modal" data-bs-target="#createProductModal">
+        <div class="row">
+            <h1 class="mb-3 col-3">Products</h1>
+            <button class="btn update text-white col-md-2 offset-md-7 col-4 offset-5 mb-1" data-bs-toggle="modal" data-bs-target="#createProductModal">
                 Create Product
                 <!-- <i class="fas fa-plus-square fa-3x"></i> -->
             </button>
         </div>
-        <div class="row">
+        <div class="row table-responsive">
             <table class="table table-hover table-bordered">
                 <thead class="table-dark">
                     <!-- <td>#</td> -->
                     <td class="col-3">Image</td>
                     <td class="col-2">Name</td>
-                    <td class="col-5">Description</td>
-                    <td></td>
+                    <td class="col-1">Price</td>
+                    <td class="col-4">Description</td>
+                    <td class="col-2"></td>
                 </thead>
                 <tbody>
                     <tr>
@@ -43,22 +44,18 @@
                             <div class="input-group md-form form-sm form-1 pl-0 mb-1">
                                 <input class="form-control my-0 py-1" type="text" placeholder="Filter"
                                     aria-label="Filter">
-                                <!-- <div class="input-group-prepend">
-                                    <span class="input-group-text h-100 w-100" id="basic-text1">
-                                        <i class="fas fa-caret-down text-white"></i>
-                                    </span>
-                                </div> -->
                             </div>
                         </td>
                         <td>
                             <div class="input-group md-form form-sm form-1 pl-0 mb-1">
                                 <input class="form-control my-0 py-1" type="text" placeholder="Filter"
                                     aria-label="Filter">
-                                <!-- <div class="input-group-prepend">
-                                    <span class="input-group-text h-100 w-100" id="basic-text1">
-                                        <i class="fas fa-caret-down text-white"></i>
-                                    </span>
-                                </div> -->
+                            </div>
+                        </td>
+                        <td>
+                            <div class="input-group md-form form-sm form-1 pl-0 mb-1">
+                                <input class="form-control my-0 py-1" type="text" placeholder="Filter"
+                                    aria-label="Filter">
                             </div>
                         </td>
                         <td></td>
@@ -70,6 +67,7 @@
                             </div>
                         </td>
                         <td>Upright Piano</td>
+                        <td>1000$</td>
                         <td>
                             Upright pianos are among the most common types of pianos on the market. They are commonly
                             seen in churches in the United States. An upright piano can more easily fit into someone’s
@@ -98,6 +96,7 @@
                             </div>
                         </td>
                         <td>Upright Piano</td>
+                        <td>1000$</td>
                         <td>
                             Upright pianos are among the most common types of pianos on the market. They are commonly
                             seen in churches in the United States. An upright piano can more easily fit into someone’s
@@ -126,6 +125,7 @@
                             </div>
                         </td>
                         <td>Upright Piano</td>
+                        <td>1000$</td>
                         <td>
                             Upright pianos are among the most common types of pianos on the market. They are commonly
                             seen in churches in the United States. An upright piano can more easily fit into someone’s
@@ -154,6 +154,7 @@
                             </div>
                         </td>
                         <td>Upright Piano</td>
+                        <td>1000$</td>
                         <td>
                             Upright pianos are among the most common types of pianos on the market. They are commonly
                             seen in churches in the United States. An upright piano can more easily fit into someone’s
